@@ -8,7 +8,7 @@
     "author": "pteradoctyl@flgx.me",
     "description": "Node.js",
     "image": "quay.io\/pterodactyl\/core:nodejs",
-    "startup": "node --max-old-space-size={{SYSTEM_MEMORY}} {{SCRIPT}} && npm i > \/dev\/null 2>&1",
+    "startup": "node --max-old-space-size={{SERVER_MEMORY}} {{SCRIPT}} && npm i > \/dev\/null 2>&1",
     "config": {
         "files": "{}",
         "startup": "{\r\n    \"done\": \"[Pterodactyl] Ready\"\r\n}",
