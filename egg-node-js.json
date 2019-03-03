@@ -5,7 +5,7 @@
     },
     "exported_at": "2019-03-02T10:17:40+01:00",
     "name": "Node.js",
-    "author": "pteradoctyl@flgx.me",
+    "author": "flgx@flgx.me",
     "description": "Node.js",
     "image": "quay.io\/pterodactyl\/core:nodejs",
     "startup": "node --max-old-space-size={{SERVER_MEMORY}} {{SCRIPT}} && npm i > \/dev\/null 2>&1",
